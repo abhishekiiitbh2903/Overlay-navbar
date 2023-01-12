@@ -9,7 +9,7 @@ function App() {
   <Router>
 <ReactNavbar
 burgerColorHover="crimson"
-burgerColor="white"
+burgerColor="black"
 logo={logo}
 logoWidth="15vmax"
 logoHoverColor="crimson"
@@ -39,11 +39,15 @@ searchIconColorHover="crimson"
 
  />
 
-    <div className="home">
+    <div className="home"
+style={{
+       height:"90vh"
+      }}
+>
     </div>
     <div className='footer'
   style={{
-    height:"100px",
+    height:"10vh",
     backgroundColor:"rgb(20,20,20)",
     width:"100vw",
     display:"flex",
